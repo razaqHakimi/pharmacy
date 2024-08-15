@@ -1,0 +1,146 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 30px;
+  padding-bottom: 5px;
+}
+header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 1px 1px 10px #c4c3c3;
+  color: #05a151;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cfcbcb;
+  padding-left: 10px 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+.logo {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.ph-name {
+  position: absolute;
+  top: 70px;
+}
+nav > a {
+  color: #05a151;
+  text-decoration: none;
+  padding: 30px;
+}
+
+a:hover {
+  color: #cf1e1e;
+}
+
+.home {
+  color: #05a151;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #c4c3c3;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+section > img {
+  width: 100%;
+}
+
+.about {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px #c4c3c3;
+  margin-bottom: 50px;
+}
+
+section > h2,
+h3 {
+  color: #05a151;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section > h4 {
+  font-weight: bold;
+}
+
+section > h2,
+h3 {
+  margin-bottom: 50px;
+}
+.service {
+  background-color: #f8f8f8;
+  padding: 30px;
+  box-shadow: 1px 1px 10px #c4c3c3;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.service-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.item {
+  padding: 70px;
+  border-radius: 20%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 1px 1px 30px #c4c3c3;
+}
+
+.product {
+  padding: 30px;
+  box-shadow: 1px 1px 10px #c4c3c3;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.img {
+  width: 450px;
+  height: 450px;
+}
+
+.pItem {
+  padding: 30px;
+  border-radius: 14%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 1px 1px 30px #c4c3c3;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+  color: #05a151;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #cfcbcb;
+  margin-bottom: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #05a151;
+  padding-left: 50px;
+  padding-top: 100px;
+}
